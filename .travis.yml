@@ -9,10 +9,6 @@ services:
 git:
   depth: 30
 
-env:
-  global:
-    - CXX=g++-4.8
-
 addons:
   apt:
     sources:
@@ -57,7 +53,7 @@ matrix:
     - node_js: "0.12"
       env: CLIENT=node COMMAND=test
     - node_js: "iojs"
-      env: CLIENT=node COMMAND=test
+      env: CXX=g++-4.8 CLIENT=node COMMAND=test
 
 branches:
   only:
