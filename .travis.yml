@@ -10,7 +10,8 @@ git:
   depth: 30
 
 env:
-  - CXX=g++-4.8
+  global:
+    - CXX=g++-4.8
 
 addons:
   apt:
@@ -48,10 +49,6 @@ env:
   matrix:
   - CLIENT=node COMMAND=test
   - CLIENT=node LEVEL_PREFIX=foo_ COMMAND=test
-
-  # Test CouchDB master (aka bigcouch branch)
-  - CLIENT=node SERVER=couchdb-master COMMAND=test
-  - SKIP_MIGRATION=true CLIENT=selenium:firefox SERVER=couchdb-master COMMAND=test
 
 matrix:
   include:
