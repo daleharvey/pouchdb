@@ -44,46 +44,46 @@ env:
   - secure: "MiufQQKR/EBoS7kcau/I7oYenVilysEqwx37zdgLEKlEUe3SxVOe31uLZv/bhfLNZiRuLAfmIOZmhLGnhMf0LaBzR2yC5qhBxrVHcAiTuS3q6zxpzEf02jnu+hACvj1kJJEPjpOLpEVx7ghWL4McEO0qLbdtSbQlm2IkOX1ONg0="
 
   matrix:
-  - CLIENT=node COMMAND=test TRY=0
-  - CLIENT=node COMMAND=test TRY=1
-  - CLIENT=node COMMAND=test TRY=2
-  - CLIENT=node COMMAND=test TRY=3
-  - CLIENT=node COMMAND=test TRY=4
-  - CLIENT=node COMMAND=test TRY=5
-  - CLIENT=node COMMAND=test TRY=6
-  - CLIENT=node COMMAND=test TRY=7
-  - CLIENT=node COMMAND=test TRY=8
-  - CLIENT=node COMMAND=test TRY=9
-  - CLIENT=node COMMAND=test TRY=10
-  - CLIENT=node COMMAND=test TRY=11
-  - CLIENT=node COMMAND=test TRY=12
-  - CLIENT=node COMMAND=test TRY=13
-  - CLIENT=node COMMAND=test TRY=14
-  - CLIENT=node COMMAND=test TRY=15
-  - CLIENT=node COMMAND=test TRY=16
-  - CLIENT=node COMMAND=test TRY=17
-  - CLIENT=node COMMAND=test TRY=18
-  - CLIENT=node COMMAND=test TRY=19
-  - CLIENT=node COMMAND=test TRY=20
-  - CLIENT=node COMMAND=test TRY=21
-  - CLIENT=node COMMAND=test TRY=22
-  - CLIENT=node COMMAND=test TRY=23
-  - CLIENT=node COMMAND=test TRY=24
-  - CLIENT=node COMMAND=test TRY=25
-  - CLIENT=node COMMAND=test TRY=26
-  - CLIENT=node COMMAND=test TRY=27
-  - CLIENT=node COMMAND=test TRY=28
-  - CLIENT=node COMMAND=test TRY=29
-  - CLIENT=node COMMAND=test TRY=30
-  - CLIENT=node COMMAND=test TRY=31
-  - CLIENT=node COMMAND=test TRY=32
-  - CLIENT=node COMMAND=test TRY=33
-  - CLIENT=node COMMAND=test TRY=34
-  - CLIENT=node COMMAND=test TRY=35
-  - CLIENT=node COMMAND=test TRY=36
-  - CLIENT=node COMMAND=test TRY=37
-  - CLIENT=node COMMAND=test TRY=38
-  - CLIENT=node COMMAND=test TRY=39
+  - GREP=test.sync.js CLIENT=node COMMAND=test TRY=0
+  - GREP=test.sync.js CLIENT=node COMMAND=test TRY=1
+  - GREP=test.sync.js CLIENT=node COMMAND=test TRY=2
+  - GREP=test.sync.js CLIENT=node COMMAND=test TRY=3
+  - GREP=test.sync.js CLIENT=node COMMAND=test TRY=4
+  - GREP=test.sync.js CLIENT=node COMMAND=test TRY=5
+  - GREP=test.sync.js CLIENT=node COMMAND=test TRY=6
+  - GREP=test.sync.js CLIENT=node COMMAND=test TRY=7
+  - GREP=test.sync.js CLIENT=node COMMAND=test TRY=8
+  - GREP=test.sync.js CLIENT=node COMMAND=test TRY=9
+  - GREP=test.sync.js CLIENT=node COMMAND=test TRY=10
+  - GREP=test.sync.js CLIENT=node COMMAND=test TRY=11
+  - GREP=test.sync.js CLIENT=node COMMAND=test TRY=12
+  - GREP=test.sync.js CLIENT=node COMMAND=test TRY=13
+  - GREP=test.sync.js CLIENT=node COMMAND=test TRY=14
+  - GREP=test.sync.js CLIENT=node COMMAND=test TRY=15
+  - GREP=test.sync.js CLIENT=node COMMAND=test TRY=16
+  - GREP=test.sync.js CLIENT=node COMMAND=test TRY=17
+  - GREP=test.sync.js CLIENT=node COMMAND=test TRY=18
+  - GREP=test.sync.js CLIENT=node COMMAND=test TRY=19
+  - GREP=test.sync.js CLIENT=node COMMAND=test TRY=20
+  - GREP=test.sync.js CLIENT=node COMMAND=test TRY=21
+  - GREP=test.sync.js CLIENT=node COMMAND=test TRY=22
+  - GREP=test.sync.js CLIENT=node COMMAND=test TRY=23
+  - GREP=test.sync.js CLIENT=node COMMAND=test TRY=24
+  - GREP=test.sync.js CLIENT=node COMMAND=test TRY=25
+  - GREP=test.sync.js CLIENT=node COMMAND=test TRY=26
+  - GREP=test.sync.js CLIENT=node COMMAND=test TRY=27
+  - GREP=test.sync.js CLIENT=node COMMAND=test TRY=28
+  - GREP=test.sync.js CLIENT=node COMMAND=test TRY=29
+  - GREP=test.sync.js CLIENT=node COMMAND=test TRY=30
+  - GREP=test.sync.js CLIENT=node COMMAND=test TRY=31
+  - GREP=test.sync.js CLIENT=node COMMAND=test TRY=32
+  - GREP=test.sync.js CLIENT=node COMMAND=test TRY=33
+  - GREP=test.sync.js CLIENT=node COMMAND=test TRY=34
+  - GREP=test.sync.js CLIENT=node COMMAND=test TRY=35
+  - GREP=test.sync.js CLIENT=node COMMAND=test TRY=36
+  - GREP=test.sync.js CLIENT=node COMMAND=test TRY=37
+  - GREP=test.sync.js CLIENT=node COMMAND=test TRY=38
+  - GREP=test.sync.js CLIENT=node COMMAND=test TRY=39
 
 branches:
   only:
