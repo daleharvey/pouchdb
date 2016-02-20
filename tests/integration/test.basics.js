@@ -1108,7 +1108,8 @@ adapters.forEach(function (adapter) {
         '_rev': '1-123'
       };
 
-      return db.put(newdoc).then(function () {
+      return db.put(newdoc).then(function (res) {
+        console.log(res);
         throw new Error('expected an error');
       }, function (err) {
         console.log(err);
