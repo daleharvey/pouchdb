@@ -1044,6 +1044,7 @@ adapters.forEach(function (adapter) {
         '_rev': '1-123'
       };
 
+      console.log(dbs.name);
       return db.bulkDocs({ docs: [newdoc] }).then (function (results) {
         console.log(results);
         results[0].should.have.property('status', 409);
