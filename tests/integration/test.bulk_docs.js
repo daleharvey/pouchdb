@@ -1045,6 +1045,7 @@ adapters.forEach(function (adapter) {
       };
 
       return db.bulkDocs({ docs: [newdoc] }).then (function (results) {
+        console.log(results);
         results[0].should.have.property('status', 409);
       });
     });
